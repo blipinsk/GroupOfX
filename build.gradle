@@ -25,7 +25,7 @@ ext {
 
     bintrayUser = BINTRAY_USERNAME
     bintrayKey = BINTRAY_API_KEY
-    dryRun = 'false'
+    dryRun = 'true'
     isUploading = project.getGradle().startParameter.taskNames.any { it.contains('bintrayUpload') }
 }
 
