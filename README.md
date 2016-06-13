@@ -9,7 +9,7 @@ Usage
 =====
 *For a working implementation of this library see the `sample/` folder.*
 
-Create and use `Group.OfX` (where `X∈{2, 3, 4, ..., 10}`) just like you would a `Pair` object.
+Create and use `Group.OfX` (where `X ∈ {Two, Three, Four,..., Ten}`) just like you would a `Pair` object.
   
   ```java
   Group.OfFour<String, Integer, String, String> aGroupOfFour =
