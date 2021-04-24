@@ -1,30 +1,20 @@
-GroupOfX
-=======
+# DEPRECATED
+
+Well... it's pretty much pointless 😅.
+
+No new development will be taking place. This library will not be maintained.
+
+Thanks for all the support!!!
+
+## GroupOfX
 
 When Android's Pair class is just not enough.
 
 I use Android's Pair class quite often, but sometimes packing two objects is just not enough.
 
-Usage
-=====
-*For a working implementation of this library see the `sample/` folder.*
+## Usage
 
-Create and use `Group.OfX` (where `X ∈ {Two, Three, Four, ..., Ten}`) just like you would a `Pair` object.
-  
-  ```java
-  Group.OfFour<String, Integer, String, String> aGroupOfFour =
-        new Group.OfFour<>("first part", 2, "third", "and a fourth one.");
-  ```
-
-Including In Your Project
--------------------------
-You can grab the library via Maven Central. Just add a proper dependency inside your `build.gradle`. Like this:
-
-```xml
-dependencies {
-    compile 'com.bartoszlipinski:groupofx:1.0.0'
-}
-```
+Check [USAGE.md](USAGE.md)
 
 Developed by
 ============
@@ -34,7 +24,7 @@ License
 =======
 
     Copyright 2016 Bartosz Lipiński
-    
+
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
